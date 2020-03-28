@@ -5,6 +5,20 @@ header {
   color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
 }
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+header h5 {
+  font-size: 22px;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
 header .flex {
   height: 100%;
   display: flex;
@@ -14,22 +28,6 @@ header .flex {
 }
 header .flex .brand {
   text-align: center;
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 26px;
-  letter-spacing: 4.8px;
-  text-transform: uppercase;
-  margin-bottom: 11px;
-}
-
-h5 {
-  font-size: 22px;
-  font-size: 22px;
-  line-height: 26px;
-  letter-spacing: 6.82px;
 }
 
 .search {
@@ -98,6 +96,144 @@ h5 {
 }
 .menu nav ul li:hover {
   color: purple;
+}
+
+.why-choose-us {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../images/backgroundwhy.svg);
+  height: 685px;
+}
+.why-choose-us .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.why-choose-us h1 {
+  font-size: 36px;
+  line-height: 26px;
+  font-family: "Aleo", serif;
+}
+.why-choose-us p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.why-choose-us button {
+  text-transform: uppercase;
+  width: 228px;
+  height: 63px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-color: #5474fd;
+  font-family: "Aleo", serif;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+}
+.why-choose-us .images {
+  display: flex;
+}
+.why-choose-us .images .image-1 {
+  align-self: center;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.why-choose-us .images .image-2 {
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.how-it-works {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  height: 340px;
+  background-color: #333333;
+}
+.how-it-works .flex {
+  display: flex;
+}
+.how-it-works .img-book {
+  display: flex;
+  font-style: #00a2ff;
+  font-size: 36px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.how-it-works .img-book h5 {
+  font-family: "Aleo", serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.how-it-works .img-check {
+  display: flex;
+  font-style: #ff6363;
+}
+.how-it-works .img-check h5 {
+  font-size: 36px;
+  line-height: 26px;
+}
+.how-it-works .img-search {
+  font-style: #5474fd;
+}
+.how-it-works .img-search h5 {
+  font-size: 36px;
+  line-height: 26px;
+}
+
+.accomodation {
+  display: flex;
+}
+.accomodation .group-1 {
+  height: 700px;
+}
+.accomodation .group-1 .group-2 {
+  height: 700px;
+}
+
+.testimonials {
+  display: flex;
+}
+.testimonials .background-pic {
+  height: 731px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 271px;
+  background-color: #333333;
+  font-family: "Josefin Sans", sans-serif;
+}
+footer h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  color: white;
+}
+footer h5 {
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.6px;
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
