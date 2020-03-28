@@ -1,1 +1,103 @@
+header {
+  position: relative;
+  background-image: url(../images/background-header.svg);
+  height: 821px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+header .flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .flex .brand {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+h5 {
+  font-size: 22px;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
+
+.search {
+  width: 60%;
+}
+.search .search-bar {
+  background-color: #ffffff;
+  display: flex;
+  margin: 0 auto;
+}
+.search .search-bar input {
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  flex-grow: 1;
+}
+.search .search-bar button {
+  background-color: #5474fd;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.scroll-down {
+  width: 108px;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.8px;
+}
+.scroll-down a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  background-color: #5474fd;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu .brand {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.menu .brand a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu nav ul li {
+  text-transform: uppercase;
+  padding: 20px;
+}
+.menu nav ul li:hover {
+  color: purple;
+}
+
 /*# sourceMappingURL=index.css.map */
