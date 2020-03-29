@@ -212,6 +212,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   height: 271px;
   background-color: #333333;
   font-family: "Josefin Sans", sans-serif;
@@ -225,15 +227,27 @@ footer h1 {
   letter-spacing: 3.36px;
   text-transform: uppercase;
   color: white;
+  margin-bottom: 8px;
 }
 footer h5 {
   font-size: 16px;
   line-height: 26px;
+  letter-spacing: 1.6px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 1.6px;
   color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.socials li:hover {
+  color: purple;
 }
 
 /*# sourceMappingURL=index.css.map */
