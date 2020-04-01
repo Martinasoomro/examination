@@ -33,18 +33,18 @@ header .flex .brand {
 .search {
   width: 60%;
 }
-.search .search-bar {
+.search .search-bar-form {
   background-color: #ffffff;
   display: flex;
   margin: 0 auto;
 }
-.search .search-bar input {
+.search .search-bar-form .search-bar-input {
   font-size: 14px;
   padding: 10px;
   border: none;
   flex-grow: 1;
 }
-.search .search-bar button {
+.search .search-bar-form .search-bar-submit {
   background-color: #5474fd;
   color: #ffffff;
   padding: 10px;
@@ -86,15 +86,16 @@ header .flex .brand {
   text-decoration: none;
   color: #ffffff;
 }
-.menu nav ul {
+.menu .menu-nav-list {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
-.menu nav ul li {
+.menu .menu-nav-list li {
   text-transform: uppercase;
   padding: 20px;
 }
-.menu nav ul li:hover {
+.menu .menu-nav-list li:hover {
   color: purple;
 }
 
@@ -191,13 +192,12 @@ header .flex .brand {
   line-height: 26px;
 }
 
-.accomodation {
-  display: flex;
-}
 .accomodation .group-1 {
+  background-image: url(../images/accom.group1.svg);
   height: 700px;
 }
-.accomodation .group-1 .group-2 {
+.accomodation .group-2 {
+  background-image: url(../images/accom.group2.svg);
   height: 700px;
 }
 
@@ -213,7 +213,6 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  align-items: center;
   height: 271px;
   background-color: #333333;
   font-family: "Josefin Sans", sans-serif;
@@ -229,7 +228,7 @@ footer h1 {
   color: white;
   margin-bottom: 8px;
 }
-footer h5 {
+footer p {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1.6px;
@@ -237,17 +236,29 @@ footer h5 {
   align-items: center;
   text-align: center;
   letter-spacing: 1.6px;
-  color: white;
-}
-
-.socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   color: #ffffff;
 }
-.socials li:hover {
-  color: purple;
+footer .nav-footer .nav-footer-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+footer .nav-footer .nav-footer-list li {
+  padding: 0 10px;
+}
+footer .nav-footer .nav-footer-list a {
+  text-decoration: none;
+}
+
+.fa {
+  color: #ffffff;
+}
+
+socials:hover {
+  color: #5474fd;
 }
 
 /*# sourceMappingURL=index.css.map */

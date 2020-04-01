@@ -2,6 +2,10 @@ $color-blue: #5474fd;
 $color-white: #ffffff;
 $color-brown: #333333;
 
+// body {
+//   padding: 15px;
+// }
+
 header {
   position: relative;
   background-image: url(../images/background-header.svg);
@@ -41,19 +45,19 @@ header {
 .search {
   width: 60%;
 
-  .search-bar {
+  .search-bar-form {
     background-color: $color-white;
     display: flex;
     margin: 0 auto;
 
-    input {
+    .search-bar-input {
       font-size: 14px;
       padding: 10px;
       border: none;
       flex-grow: 1;
     }
 
-    button {
+    .search-bar-submit {
       background-color: $color-blue;
       color: $color-white;
       padding: 10px;
@@ -99,9 +103,10 @@ header {
     }
   }
 
-  nav ul {
+  .menu-nav-list {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 
     li {
       text-transform: uppercase;
@@ -112,9 +117,6 @@ header {
       color: purple;
     }
   }
-}
-
-.brand {
 }
 
 .why-choose-us {
@@ -226,14 +228,14 @@ header {
 }
 
 .accomodation {
-  display: flex;
-
   .group-1 {
+    background-image: url(../images/accom.group1.svg);
     height: 700px;
+  }
 
-    .group-2 {
-      height: 700px;
-    }
+  .group-2 {
+    background-image: url(../images/accom.group2.svg);
+    height: 700px;
   }
 }
 
@@ -250,7 +252,6 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  align-items: center;
 
   height: 271px;
   background-color: $color-brown;
@@ -268,7 +269,7 @@ footer {
     margin-bottom: 8px;
   }
 
-  h5 {
+  p {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 1.6px;
@@ -276,17 +277,33 @@ footer {
     align-items: center;
     text-align: center;
     letter-spacing: 1.6px;
-    color: white;
+    color: $color-white;
+  }
+
+  .nav-footer {
+    .nav-footer-list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      padding-inline-start: 0;
+
+      li {
+        padding: 0 10px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 }
 
-.socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.fa {
   color: $color-white;
+}
 
-  li:hover {
-    color: purple;
-  }
+socials:hover {
+  color: $color-blue;
 }
